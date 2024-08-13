@@ -13,18 +13,18 @@
     .container{
         max-width: 1200px;
         height: 100%;
-        border: 1px solid green;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         max-height: 700px;
+ 
         
         .info{
             width: 100%;
 
             .title{
-                font-size: 45px;
+                font-size: 40px;
                 color: var(--color-blue);
                 margin-bottom: 20px;
                 font-weight: 600;
@@ -108,5 +108,82 @@
                 }
             }
         }   
+    }
+}
+
+
+
+// responsive
+@media only screen and (max-width: 1200px) {
+    .main-view {
+
+        .container{
+            max-width: 991px;
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .main-view {
+        height: auto;
+        max-height: none;
+        padding: 0 0 20px;
+
+        .container{
+            max-width: 768px;
+            display: block;
+            height: auto;
+            padding: 10px;
+            max-height: none;
+
+            .image{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-view {
+        .container{
+            max-width: 500px;
+
+            .image{
+                height: auto;
+                padding: 0;
+
+                .img{
+                    width: 480px;
+                    height: 480px;
+                    margin: 0 auto;
+
+                    img{
+                        top: -480px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-view {
+        .container{
+            max-width: 500px;
+
+            .image{
+                height: auto;
+                padding: 0;
+
+                .img{
+                    max-width: 90vw;
+                    height: 90vw;
+                    margin: 0 auto;
+                    
+                    img{
+                        top: -96vw;
+                    }
+                }
+            }
+        }
     }
 }

@@ -42,7 +42,7 @@ function Home() {
       <section className="main-view">
         <div className="container">
           <div className="info">
-            <h1 className='title'>Brend bilan doimo bo'l</h1>
+            <h1 className='title'>Brend bilan doimo birga bo'l</h1>
             <h2 className='desc'>Buyurtma asosida kargo</h2>
             <p className="sale">Birinchi haridingiz uchun 50% gacha bo'lgan chegirmaga ega bo'ling !</p>
             <button className='btn'>Mahsulotlar</button>
