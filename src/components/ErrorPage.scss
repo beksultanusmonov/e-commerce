@@ -1,0 +1,28 @@
+.errorPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-dark);
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    a{
+        padding: 10px 20px;
+        background-color: var(--color-green);
+        text-decoration: none;
+        color: var(--color-white);
+        border-radius: 10px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+}

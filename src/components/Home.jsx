@@ -29,7 +29,7 @@ function Home() {
   
       allViewProducts[active].classList.add('active');
     }
-  }
+  } 
 
   useEffect(() => {
     setTimeout(() => {
