@@ -20,7 +20,7 @@ header .container{
     
     .logo{
         width: 100px;
-        height: 71px;
+        height: 70px;
 
         img{
             width: 100%;
@@ -38,7 +38,7 @@ header .container{
         display: none;
 
         i{
-            font-size: 40px;
+            font-size: 30px;
             color: var(--color-dark);
         }
     }
@@ -122,8 +122,13 @@ header .container{
         .container{
             max-width: 500px;
 
+            .logo{
+                padding: 5px;
+            }
+
             .hamburger{
                 display: block;
+
             }
 
             .menu{
