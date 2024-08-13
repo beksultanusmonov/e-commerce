@@ -7,15 +7,15 @@ function ErrorPage() {
         return (
           <div className="errorPage">
               <h1>404</h1>
-              <h2>Page Not Found</h2>
-              <Link>Go To Home</Link>
+              <h2>Sahifa topilmadi </h2>
+              <Link>bosh sahifaga qaytish</Link>
           </div>
         )
     } else{
         return (
           <div className="errorPage">
-              <h2>Something Went Wrong :(</h2>
-              <Link>Go To Home</Link>
+              <h2>Qandaydir xatolik sodir boldi :(</h2>
+              <Link>bosh sahifaga qaytish</Link>
           </div>
         )
     }

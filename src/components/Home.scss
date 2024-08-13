@@ -6,7 +6,7 @@
     position: relative;
     width: 100vw;
     height: calc(100vh - 70px);
-    background: url('https://st4.depositphotos.com/20363444/26696/i/450/depositphotos_266968312-stock-photo-cropped-view-woman-shopping-bags.jpg');
+    background: url('https://capturly.com/blog/wp-content/uploads/2018/01/eCommerce-website-search-customer-experience.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -46,6 +46,11 @@
 
             button{
                 margin-top: 30px;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.05);
+                }
             }
         }
 
